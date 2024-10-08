@@ -1,0 +1,699 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+body {
+   font-family: 'Gabarito', sans-serif;
+   font-size: 16px;
+}
+
+.bodyelement {
+   padding: 10px;
+   justify-content: space-around;
+   gap: 5%;
+   display: flex;
+   align-items: center;
+}
+
+.bodyelement__one img {
+   height: 40px;
+   width: auto;
+   margin-left: 0;
+
+}
+
+.Container--three {
+   gap: 15px;
+   margin-right: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Container--three p {
+   font-weight: bold;
+   color: #333333;
+   gap: 10px;
+}
+
+.Container--three p:hover {
+   background-color: #f2f2f2;
+   padding: 10px;
+   border-radius: 40px;
+   position: static;
+}
+
+.container--four {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   padding: 10px;
+   margin: 10px;
+}
+
+.container--four button {
+   background-color: #000000;
+   color: white;
+   align-items: center;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.HEading {
+   padding: 10px;
+   margin: 10px;
+}
+
+.Heading--title h1 {
+   text-align: center;
+   font-weight: 900px;
+}
+
+.main ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   list-style: none;
+   margin-top: 30px;
+}
+
+.main ul li a {
+   display: flex;
+   text-decoration: none;
+   gap: 3px;
+}
+
+.main ul li a p {
+   color: black;
+   background-color: transparent;
+}
+
+.main ul li a p:hover {
+   border-bottom: solid black 1px;
+   cursor: pointer;
+}
+
+.Searchengine {
+   padding: 10px;
+   margin: 10px;
+   width: 60%;
+}
+
+.Searchengine--one {
+   border: solid #e0e0e0 1px;
+   display: flex;
+   width: 80%;
+   padding: 5px;
+   margin-left: 40%;
+   align-items: center;
+   border-radius: 50px;
+   box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.Searchengine--one input {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   background-color: transparent;
+   border-radius: 50px;
+   font-size: 16px;
+}
+
+.Searchengine--one input:focus {
+   outline: none;
+}
+
+.Searchengine--one__button {
+   padding: 10px;
+   margin-left: 20px;
+   display: flex;
+   width: 90px;
+   border-radius: 50px;
+   border: none;
+   background-color: #34e0a1;
+   font-weight: bold;
+}
+
+.Searchengine--one__button:hover {
+   background-color: #61dbae;
+   cursor: pointer;
+}
+
+.Bodysection {
+   justify-content: center;
+   padding: 20px;
+   position: relative;
+   margin-left:120px ;
+}
+
+.Bodysection img {
+   height: 80%;
+   width: 90%; 
+}
+
+.image__content {
+   margin: 60px;
+   padding: 30px;
+   position: absolute;
+   top: 10%;
+   font-size: 180%;
+   gap: 10px;
+   justify-content: space-between;
+   color: #f2f2f2;
+
+}
+
+.image__content button {
+   display: flex;
+   padding: 20px;
+   margin: 40px;
+   border-radius: 30px;
+   border: none;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   background-color: rgb(108, 130, 153);
+   font-weight: bold;
+}
+
+.image__content button:hover {
+   background-color: rgb(175, 113, 175)
+}
+
+.Sections--headings {
+   padding: 10px;
+   margin: 20px;
+}
+
+.Sections--headings__title {
+   padding-left: 12%;
+   justify-content: center;
+   align-items: center;
+}
+
+.Sections--headings p {
+   padding-top: 10px;
+   padding-left: 12%;
+}
+
+.Sections--headings__cards {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.Sections--headings__images {
+   padding: 10px;
+   position: relative;
+}
+
+.Sections--headings__images img {
+   border-radius: 5px;
+   height: 270px;
+   width: 270px;
+}
+.Sections--headings__images h1 {
+   position: absolute;
+   bottom: 13px;
+   font-size: 150%;
+   padding-left: 10px;
+   width: 86%;
+   background-image: linear-gradient(rgba(66, 63, 63, 0), rgba(61, 58, 58, 0.716));
+   color: #e0e0e0;
+   margin-bottom: 2px;
+}
+
+.Sections--headings__images img:hover {
+   filter: brightness(1.1);
+   cursor: pointer;
+}
+
+.travelor_quotes {
+   padding: 20px;
+   margin: 20px;
+}
+
+.travelor_quotes_new {
+   padding-left: 12%;
+   margin: 10px;
+}
+
+.travel__place {
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+.travel__place--visit {
+   margin: 5px;
+   align-items: center;
+   justify-content: center;
+}
+.travel__place--visit img {
+   height: 250px;
+   width: 360px;
+   border-radius: 20px;
+}
+
+.travel__place--visit img:hover {
+   filter: brightness(1.1);
+   cursor: pointer;
+}
+
+.travel__place--visit h2 {
+   font-weight: 100px;
+   font-size: 20px;
+   padding: 10px;
+}
+
+.visiting {
+   padding: 10px;
+   margin: 10px;
+}
+.visiting__places {
+   padding-left: 12%;
+   margin: 10px;
+}
+
+.visiting__places__title {
+   padding-left: 12%;
+   margin: 10px;
+}
+.visiting__places--chennai {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
+}
+.visiting__places--near img {
+   height: 300px;
+   width: 300px;
+   padding: 5px;
+   margin: 10px;
+   border-radius: 20px;
+}
+.visiting__places--near img:hover{
+   filter: brightness(1.1);
+   cursor: pointer;
+}
+.Pondi {
+   padding: 10px;
+   margin: 10px;
+}
+.visit--title {
+   padding-left: 12%;
+   margin: 10px;
+}
+.visit--para {
+   padding-left: 12%;
+   margin: 10px;
+}
+.visit--pondicheri {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
+}
+.visiting__places--pon img {
+   height: 300px;
+   width: 300px;
+   padding: 5px;
+   margin: 10px;
+   border-radius: 20px;
+   gap: 10px;
+}
+.Set {
+   padding: 10px;
+   margin: 20px;
+}
+.Set__title {
+   padding-left: 12%;
+   margin: 10px;
+}
+.para {
+   padding-left: 12%;
+   margin: 10px;
+}
+
+.Set__titlecard {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+.Set__titlecard--asia {
+   padding: 10px;
+   position: relative;
+}
+
+.Set__titlecard--asia img {
+   border-radius: 5px;
+   height: 270px;
+   width: 270px;
+}
+
+.Set__titlecard--asia h1 {
+   position: absolute;
+   bottom: 13px;
+   font-size: 150%;
+   padding-left: 10px;
+   width: 86%;
+   background-image: linear-gradient(rgba(66, 63, 63, 0), rgba(61, 58, 58, 0.716));
+   color: #e0e0e0;
+   margin-bottom: 2px;
+}
+
+.Set__titlecard--asia img:hover {
+   filter: brightness(1.1);
+   cursor: pointer;
+}
+
+.more_to {
+   background-color: #f2f1ec;
+   color: #000000;
+   padding-top: 10px;
+   padding-left: 12%;
+}
+
+.more_to--explore {
+   display: flex;
+   padding: 10px;
+   margin: 5px;
+   align-items: center;
+}
+
+.more_to--explores {
+   justify-content: center;
+   padding: 20px;
+   align-items: center;
+
+}
+
+.more_to--explores img {
+   border-radius: 10px;
+   align-items: center;
+
+}
+
+.last {
+   display: flex;
+   padding: 40px 60px;
+   margin-top: 20px;
+   align-items: center;
+   gap: 20px;
+   background-color: #fff7e1;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.last--section {
+   flex: 1;
+   max-width: 50%;
+   padding-left: 10%;
+}
+
+.last--section img {
+   height: 80px;
+   width: 90px;
+   margin-bottom: 20px;
+}
+
+.last--section h1 {
+   font-size: 46px;
+   margin-bottom: 20px;
+   line-height: 1.2;
+}
+
+.last--section p {
+   font-size: 25px;
+   margin-bottom: 30px;
+   line-height: 1.6;
+   font-weight: 0;
+}
+
+.last--section button {
+   padding: 15px 30px;
+   border-radius: 20px;
+   border: none;
+   background-color: #000000;
+   color: #f2f1ec;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.last--side__photo img {
+   height: 600px;
+   width: auto;
+   object-fit: cover;
+}
+
+.last--side__photo {
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 20%;
+}
+
+footer {
+   background-color: #f8f9fa;
+   color: #333;
+}
+
+.footer-container {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   /* Create 5 columns */
+   gap: 20px;
+   padding: 40px;
+
+}
+
+.footer-column {
+   margin: 0 20px;
+}
+
+.footer-column h3 {
+   font-size: 16px;
+   margin-bottom: 15px;
+}
+
+.footer-column ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-column ul li {
+   margin: 8px 0;
+}
+
+.footer-column ul li a {
+   color: black;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+   text-decoration: underline;
+}
+
+.footer-column p {
+   font-size: 14px;
+   color: #666;
+}
+
+.footer-bottom {
+   background-color: #e9ecef;
+   padding: 20px;
+
+   border-top: 1px solid #ddd;
+}
+
+.trip {
+   display: inline-block;
+}
+
+.footer-bottom img {
+   display: inline;
+}
+
+.footer-bottom p {
+   font-size: 12px;
+   display: block;
+   padding-top: 10px;
+   display: flex;
+}
+
+.footer-bottom a {
+
+   color: black;
+   text-decoration: none;
+   margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+   text-decoration: underline;
+}
+
+.footer-settings {
+   display: inline-block;
+   margin: 10px 20px;
+
+}
+
+.footer-settings select {
+   margin: 0 10px;
+   padding: 5px;
+   border-radius: 30px;
+}
+
+.footer-social {
+   display: flex;
+   margin-top: 10px;
+
+}
+
+.footer-social {
+   margin: 10px;
+   gap: 30px;
+   padding-left: 2%;
+
+}
+
+@media (max-width: 600px) {
+
+   
+   .Searchengine {
+      width: 100%;
+      padding: 10px;
+      margin: 0 auto;
+   }
+
+   .Searchengine--one {
+      flex-direction: column;
+      width: 100%;
+      margin-left: 0;
+      padding: 10px;
+      box-shadow: none;
+   }
+
+   .Searchengine--one input {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+   }
+
+   .Searchengine--one__button {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+   }
+   .Bodysection {
+      margin: 10px;
+      padding: 10px;
+   }
+
+   .Bodysection img {
+      width: 550px;
+      height: 560px;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 20px;
+   }
+
+
+   .image__content {
+      margin-top: 60px;
+      padding: 10px;
+      font-size: 90%;
+      top: 5%;
+   }
+
+   .image__content button {
+      padding: 10px;
+      margin: 20px;
+      font-size: 14px;
+      border-radius: 20px;
+   }
+
+
+   .Sections--headings {
+      margin: 10px;
+      padding: 5px;
+   }
+
+   .Sections--headings__title {
+      padding-left: 5%;
+   }
+
+   .Sections--headings p {
+      padding-left: 5%;
+      font-size: 14px;
+   }
+
+   .Sections--headings__cards {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .Sections--headings__images {
+      margin: 5px;
+      padding: 5px;
+   }
+
+   .Sections--headings__images img {
+      height: 220px;
+      width: 220px;
+   }
+
+   .Sections--headings__images h1 {
+      font-size: 120%;
+      bottom: 8px;
+      padding-left: 5px;
+      width: 80%;
+   }
+
+
+   .travelor_quotes {
+      padding: 10px;
+      margin: 10px;
+   }
+
+   .travelor_quotes_new {
+      padding-left: 5%;
+   }
+
+   .travel__place {
+      padding: 10px;
+      text-align: center;
+   }
+
+   .travel__place--visit img {
+      width: 100%;
+      height: auto;
+   }
+
+   .travel__place--visit h2 {
+      font-size: 18px;
+      padding: 5px;
+   }
+   .Container--three{
+      display: none;
+   }
+   .container--four{
+      display: none;
+   }
+   .newsignin{
+      display: flex;
+      
+      
+   }
+   
+}
+.newsignin{
+   display: none;
+}
